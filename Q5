@@ -1,0 +1,21 @@
+package task;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Task5 {
+
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		list.add("Red");
+		list.add("Yellow");
+		list.add("White");
+		list.add("Black");
+		list.add("Pink");
+		System.out.println(list);
+
+		list.clear();
+		System.out.println("ArrayList: " + list);
+	}
+
+}
