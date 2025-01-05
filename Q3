@@ -1,0 +1,13 @@
+package task;
+
+public class Task3 {
+	public static void main(String[] args) {
+	int age = 16;
+	
+	if (age<18) {
+		throw new IllegalArgumentException ("Age is Not Valid. Not less than 18");
+	}else {
+	    System.out.println("Age is Valid");
+	}
+}
+}
