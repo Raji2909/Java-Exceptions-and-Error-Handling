@@ -1,0 +1,15 @@
+package task;
+
+public class Task1 {
+	public static void main(String[] args){
+		int a = 10;
+		try {             
+			int b = a/0;
+			System.out.println("Divided Value :" +b);
+		} catch (ArithmeticException e) { 
+			System.out.println("Exception Type: "+e);
+		} finally {              
+			System.out.println("Exception Handling is Used if there is any");
+		}
+	}
+}
