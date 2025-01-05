@@ -1,0 +1,21 @@
+package task;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Task6 {
+
+	public static void main(String[] args) {
+		Map <Integer, String> mi = new TreeMap <Integer, String> ();
+		mi.put(101,"Brama Vidya");
+		mi.put(102,"Hari");
+		mi.put(103,"Raji");
+		mi.put(104,"Ranjani");
+		mi.put(105,"Sakthivel");
+		mi.put(106,"Selvi");
+		mi.put(107,"Shantilal");
+		mi.put(108,"Theju");
+		
+		System.out.println(mi);
+	}
+}
